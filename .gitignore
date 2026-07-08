@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+out/
+
+# Logs
+*.log
+logs/
+
+# Environment / local secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / runtime files
+*.pid
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Uploads / temporary files
+tmp/
+temp/
+uploads/
